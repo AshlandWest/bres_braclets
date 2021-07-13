@@ -1,6 +1,6 @@
 import React from "react";
 
-function PostFooter() {
+function PostFooter(props) {
   return (
     <footer>
       <ul class="actions">
@@ -12,16 +12,16 @@ function PostFooter() {
       </ul>
       <ul class="stats">
         <li>
-          <a href="#">General</a>
+          <a href="#">{props.catagory}</a>
         </li>
         <li>
           <a href="#" class="icon solid fa-heart">
-            28
+            {props.likes}
           </a>
         </li>
         <li>
           <a href="#" class="icon solid fa-comment">
-            128
+            {props.comments.numberOfComments}
           </a>
         </li>
       </ul>

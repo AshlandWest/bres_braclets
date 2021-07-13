@@ -1,9 +1,9 @@
 import react from "react";
 
-function PostImage() {
+function PostImage(props) {
   return (
     <a href="single.html" class="image featured">
-      <img src="images/pic01.jpg" alt="" />
+      <img src={props.image} alt="" />
     </a>
   );
 }

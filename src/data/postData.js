@@ -12,6 +12,8 @@ const postData = {
         avitar: faker.image.avatar(),
       },
       mainImage: faker.image.cats(381, 155),
+      postText: faker.lorem.paragraphs(),
+      postCatagory: faker.lorem.word(),
       likes: faker.datatype.number(100),
       comments: {
         numberOfComments: faker.datatype.number(100),
@@ -27,6 +29,8 @@ const postData = {
         avitar: faker.image.avatar(),
       },
       mainImage: faker.image.cats(381, 155),
+      postText: faker.lorem.paragraphs(),
+      postCatagory: faker.lorem.word(),
       likes: faker.datatype.number(100),
       comments: {
         numberOfComments: faker.datatype.number(100),
@@ -42,6 +46,8 @@ const postData = {
         avitar: faker.image.avatar(),
       },
       mainImage: faker.image.cats(381, 155),
+      postText: faker.lorem.paragraphs(),
+      postCatagory: faker.lorem.word(),
       likes: faker.datatype.number(100),
       comments: {
         numberOfComments: faker.datatype.number(100),

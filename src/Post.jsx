@@ -13,9 +13,13 @@ function Post(props) {
         date={props.date}
         author={props.author}
       />
-      <PostImage />
-      <PostText />
-      <PostFooter />
+      <PostImage image={props.mainImage} />
+      <PostText text={props.postText} />
+      <PostFooter
+        catagory={props.postCatagory}
+        likes={props.likes}
+        comments={props.comments}
+      />
     </article>
   );
 }
