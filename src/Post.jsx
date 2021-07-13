@@ -4,10 +4,15 @@ import PostImage from "./PostImage";
 import PostText from "./PostText";
 import PostFooter from "./PostFooter";
 
-function Post() {
+function Post(props) {
   return (
     <article class="post">
-      <PostHead />
+      <PostHead
+        title={props.title}
+        description={props.description}
+        date={props.date}
+        author={props.author}
+      />
       <PostImage />
       <PostText />
       <PostFooter />

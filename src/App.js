@@ -1,7 +1,10 @@
 import logo from "./logo.svg";
 import Post from "./Post";
 
+import postData from "./data/postData";
+
 function App() {
+  let posts = postData.posts.map((post) => <Post {...post} />);
   return (
     // <!-- Wrapper -->
     <div id="wrapper">
@@ -102,9 +105,7 @@ function App() {
       {/* <!-- Main --> */}
       <div id="main">
         {/* <!-- Post --> */}
-        <Post />
-        <Post />
-        <Post />
+        {posts}
 
         {/* <!-- Pagination --> */}
         <ul class="actions pagination">

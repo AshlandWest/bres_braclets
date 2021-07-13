@@ -1,21 +1,24 @@
 import React from "react";
 
-function PostHead() {
+function PostHead(props) {
+  const date = `${props.date.toLocaleString("default", { month: "long" })}
+  ${props.date.getDate()},
+  ${props.date.getFullYear()}`;
   return (
     <header>
       <div class="title">
         <h2>
-          <a href="single.html">Magna sed adipiscing</a>
+          <a href="single.html">{props.title}</a>
         </h2>
-        <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+        <p>{props.description}</p>
       </div>
       <div class="meta">
         <time class="published" datetime="2015-11-01">
-          November 1, 2015
+          {date}
         </time>
         <a href="#" class="author">
-          <span class="name">Jane Doe</span>
-          <img src="images/avatar.jpg" alt="" />
+          <span class="name">{props.author.name}</span>
+          <img src={props.author.avitar} alt="" />
         </a>
       </div>
     </header>
