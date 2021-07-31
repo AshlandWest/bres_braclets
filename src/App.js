@@ -131,7 +131,7 @@ function App() {
           </a>
           <header>
             <h2>Bre's Bracelets</h2>
-            <p>Freindship bracelets created by Breonna Hanna</p>
+            <p>Friendship bracelets created by Breonna Hanna</p>
           </header>
         </section>
 

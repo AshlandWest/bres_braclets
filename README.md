@@ -1,4 +1,4 @@
-# A Blog Site for Breonna's Freindship Bracelet Hobbie
+# A Blog Site for Breonna's Friendship Bracelet Hobbie
 
 ## Intentions
 
