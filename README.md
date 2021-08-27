@@ -2,8 +2,8 @@
 
 ## Intentions
 
-My little sister, Breonna, has been getting into making friendship bracelets lately. She told me she is keeping a "blog" of them by taking notes on her IPad.
-I want to support her in her creative endeavors, so I decided to build her a real blog she can share with her friends.
+My little sister, Breonna, started making friendship bracelets. She told me she is keeping a "blog" of them by taking notes on her IPad.
+I want to support her creative endeavors, so I decided to build her a real blog she can share with her friends.
 
 ## Technologies
 
