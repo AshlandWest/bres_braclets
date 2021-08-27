@@ -1,5 +1,8 @@
 import logo from "./logo.svg";
-import Post from "./Post";
+
+import NavHeader from "./components/NavHeader";
+
+import Post from "./components/Post";
 
 import postData from "./data/postData";
 
@@ -9,47 +12,7 @@ function App() {
     // <!-- Wrapper -->
     <div id="wrapper">
       {/* <!-- Header --> */}
-      <header id="header">
-        <h1>
-          <a href="index.html">Bre's Bracelets</a>
-        </h1>
-        <nav class="links">
-          <ul>
-            <li>
-              <a href="#">Lorem</a>
-            </li>
-            <li>
-              <a href="#">Ipsum</a>
-            </li>
-            <li>
-              <a href="#">Feugiat</a>
-            </li>
-            <li>
-              <a href="#">Tempus</a>
-            </li>
-            <li>
-              <a href="#">Adipiscing</a>
-            </li>
-          </ul>
-        </nav>
-        <nav class="main">
-          <ul>
-            <li class="search">
-              <a class="fa-search" href="#search">
-                Search
-              </a>
-              <form id="search" method="get" action="#">
-                <input type="text" name="query" placeholder="Search" />
-              </form>
-            </li>
-            <li class="menu">
-              <a class="fa-bars" href="#menu">
-                Menu
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <NavHeader />
 
       {/* <!-- Menu --> */}
       <section id="menu">
