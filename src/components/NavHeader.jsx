@@ -1,4 +1,5 @@
 import React from "react";
+import Menu from "./Menu";
 
 const NavHeader = () => {
   return (
@@ -42,6 +43,8 @@ const NavHeader = () => {
           </li>
         </ul>
       </nav>
+      {/* <!-- Menu --> */}
+      <Menu />
     </header>
   );
 };

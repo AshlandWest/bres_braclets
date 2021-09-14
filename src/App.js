@@ -4,7 +4,6 @@ import NavHeader from "./components/NavHeader";
 import Post from "./components/Post";
 import postData from "./data/postData";
 import Footer from "./components/Footer";
-import Menu from "./components/Menu";
 
 function App() {
   let posts = postData.posts.map((post) => <Post {...post} />);
@@ -13,10 +12,6 @@ function App() {
     <div id="wrapper">
       {/* <!-- Header --> */}
       <NavHeader />
-
-      {/* <!-- Menu --> */}
-      <Menu />
-
       {/* <!-- Main --> */}
       <div id="main">
         {/* <!-- Post --> */}
