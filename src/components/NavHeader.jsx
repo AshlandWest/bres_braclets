@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Menu from "./Menu";
 
 const NavHeader = () => {
+  const [menuIsOpen, setMenuIsOpen] = useState(false);
+
   return (
     <header id="header">
       <h1>
@@ -37,14 +39,20 @@ const NavHeader = () => {
             </form>
           </li>
           <li class="menu">
-            <a class="fa-bars" href="#menu">
+            <a
+              class="fa-bars"
+              href="#"
+              onClick={() => {
+                setMenuIsOpen(!menuIsOpen);
+              }}
+            >
               Menu
             </a>
           </li>
         </ul>
       </nav>
       {/* <!-- Menu --> */}
-      <Menu />
+      <Menu open={menuIsOpen} />
     </header>
   );
 };

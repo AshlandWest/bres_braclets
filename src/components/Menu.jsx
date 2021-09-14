@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import ReactDOM from "react-dom";
 
-const Menu = (visibility) => {
-  if (visibility) {
+const Menu = ({ open }) => {
+  if (open) {
     return ReactDOM.createPortal(
       <section id="menu">
         {/* <!-- Search --> */}
