@@ -3605,7 +3605,6 @@ div#portal {
   overflow-y: auto;
   position: relative;
   float: right;
-  visibility: visible;
   width: 25em;
   z-index: 10002;
 }
