@@ -3596,6 +3596,15 @@ div#portal {
   right: 0;
 }
 
+div#overlay {
+  position: fixed;
+  top: 3.5em;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 #menu {
   background: #ffffff;
   border-left: solid 1px rgba(160, 160, 160, 0.3);
