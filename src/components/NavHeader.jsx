@@ -52,7 +52,7 @@ const NavHeader = () => {
         </ul>
       </nav>
       {/* <!-- Menu --> */}
-      <Menu open={menuIsOpen} />
+      <Menu open={menuIsOpen} toggleOpen={setMenuIsOpen} />
     </header>
   );
 };
