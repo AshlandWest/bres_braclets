@@ -3616,7 +3616,7 @@ div#overlay {
   position: relative;
   float: right;
   width: 25em;
-  z-index: 10002;
+  z-index: 10003;
 }
 
 #menu > * {
