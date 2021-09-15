@@ -3425,11 +3425,11 @@ body {
   width: 90em;
 }
 
-@media screen and (max-width: 1680px) {
+/* @media screen and (max-width: 1680px) {
   #wrapper {
     padding: 3em;
   }
-}
+} */
 
 @media screen and (max-width: 1280px) {
   #wrapper {
@@ -3588,11 +3588,17 @@ body.single #footer {
 
 /* Menu */
 
-div#portal {
+div#root {
   position: absolute;
-  top: 3.5em;
-  bottom: 0;
+  right: 0;
   left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+div#portal {
+  position: fixed;
+  top: 3.5em;
   right: 0;
 }
 
