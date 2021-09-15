@@ -42,8 +42,9 @@ const NavHeader = () => {
             <a
               class="fa-bars"
               href="#"
-              onClick={() => {
+              onClick={(e) => {
                 setMenuIsOpen(!menuIsOpen);
+                e.preventDefault();
               }}
             >
               Menu
