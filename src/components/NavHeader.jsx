@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Menu from "./Menu";
+import { Link } from "react-router-dom";
 
 const NavHeader = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -12,10 +13,10 @@ const NavHeader = () => {
       <nav class="links">
         <ul>
           <li>
-            <a href="#">Lorem</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Ipsum</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <a href="#">Feugiat</a>
